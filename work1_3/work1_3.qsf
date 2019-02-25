@@ -56,3 +56,23 @@ set_global_assignment -name VERILOG_FILE CLK.v
 set_global_assignment -name POWER_PRESET_COOLING_SOLUTION "23 MM HEAT SINK WITH 200 LFPM AIRFLOW"
 set_global_assignment -name POWER_BOARD_THERMAL_MODEL "NONE (CONSERVATIVE)"
 set_global_assignment -name VERILOG_FILE seg7.v
+set_global_assignment -name PARTITION_NETLIST_TYPE SOURCE -section_id Top
+set_global_assignment -name PARTITION_FITTER_PRESERVATION_LEVEL PLACEMENT_AND_ROUTING -section_id Top
+set_global_assignment -name PARTITION_COLOR 16764057 -section_id Top
+set_location_assignment PIN_N14 -to ck
+set_location_assignment PIN_J11 -to ctrl[5]
+set_location_assignment PIN_H12 -to ctrl[4]
+set_location_assignment PIN_D13 -to ctrl[3]
+set_location_assignment PIN_E12 -to ctrl[2]
+set_location_assignment PIN_E13 -to ctrl[1]
+set_location_assignment PIN_D14 -to ctrl[0]
+set_location_assignment PIN_M1 -to reset
+set_location_assignment PIN_A6 -to seg[7]
+set_location_assignment PIN_B7 -to seg[6]
+set_location_assignment PIN_A8 -to seg[5]
+set_location_assignment PIN_A7 -to seg[4]
+set_location_assignment PIN_B8 -to seg[3]
+set_location_assignment PIN_A9 -to seg[2]
+set_location_assignment PIN_C9 -to seg[1]
+set_location_assignment PIN_B10 -to seg[0]
+set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

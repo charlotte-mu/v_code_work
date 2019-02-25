@@ -1,0 +1,135 @@
+|top
+ck => ck.IN1
+reset => reset.IN2
+seg[0] <= seg7:u3.seg
+seg[1] <= seg7:u3.seg
+seg[2] <= seg7:u3.seg
+seg[3] <= seg7:u3.seg
+seg[4] <= seg7:u3.seg
+seg[5] <= seg7:u3.seg
+seg[6] <= seg7:u3.seg
+seg[7] <= seg7:u3.seg
+ctrl[0] <= seg7:u3.ctrl
+ctrl[1] <= seg7:u3.ctrl
+ctrl[2] <= seg7:u3.ctrl
+ctrl[3] <= seg7:u3.ctrl
+ctrl[4] <= seg7:u3.ctrl
+ctrl[5] <= seg7:u3.ctrl
+
+
+|top|CLK:u1
+ck => ck1~reg0.CLK
+ck => conter[0].CLK
+ck => conter[1].CLK
+ck => conter[2].CLK
+ck => conter[3].CLK
+ck => conter[4].CLK
+ck => conter[5].CLK
+ck => conter[6].CLK
+ck => conter[7].CLK
+ck => conter[8].CLK
+ck => conter[9].CLK
+ck => conter[10].CLK
+ck => conter[11].CLK
+ck => conter[12].CLK
+ck => conter[13].CLK
+ck => conter[14].CLK
+ck => conter[15].CLK
+ck => conter[16].CLK
+ck => conter[17].CLK
+ck => conter[18].CLK
+ck => conter[19].CLK
+ck => conter[20].CLK
+ck => conter[21].CLK
+ck => conter[22].CLK
+ck => conter[23].CLK
+ck => conter[24].CLK
+ck => conter[25].CLK
+ck => conter[26].CLK
+ck => conter[27].CLK
+ck => conter[28].CLK
+ck => conter[29].CLK
+ck => conter[30].CLK
+ck => conter[31].CLK
+reset => ck1~reg0.ACLR
+reset => conter[0].ACLR
+reset => conter[1].ACLR
+reset => conter[2].ACLR
+reset => conter[3].ACLR
+reset => conter[4].ACLR
+reset => conter[5].ACLR
+reset => conter[6].ACLR
+reset => conter[7].ACLR
+reset => conter[8].ACLR
+reset => conter[9].ACLR
+reset => conter[10].ACLR
+reset => conter[11].ACLR
+reset => conter[12].ACLR
+reset => conter[13].ACLR
+reset => conter[14].ACLR
+reset => conter[15].ACLR
+reset => conter[16].ACLR
+reset => conter[17].ACLR
+reset => conter[18].ACLR
+reset => conter[19].ACLR
+reset => conter[20].ACLR
+reset => conter[21].ACLR
+reset => conter[22].ACLR
+reset => conter[23].ACLR
+reset => conter[24].ACLR
+reset => conter[25].ACLR
+reset => conter[26].ACLR
+reset => conter[27].ACLR
+reset => conter[28].ACLR
+reset => conter[29].ACLR
+reset => conter[30].ACLR
+reset => conter[31].ACLR
+ck1 <= ck1~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|control:u2
+ck => data2[0]~reg0.CLK
+ck => data2[1]~reg0.CLK
+ck => data2[2]~reg0.CLK
+ck => data1[0]~reg0.CLK
+ck => data1[1]~reg0.CLK
+ck => data1[2]~reg0.CLK
+ck => fsm~1.DATAIN
+reset => data2[0]~reg0.ACLR
+reset => data2[1]~reg0.PRESET
+reset => data2[2]~reg0.ACLR
+reset => data1[0]~reg0.PRESET
+reset => data1[1]~reg0.ACLR
+reset => data1[2]~reg0.ACLR
+reset => fsm~3.DATAIN
+data1[0] <= data1[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data1[1] <= data1[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data1[2] <= data1[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[0] <= data2[0]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[1] <= data2[1]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+data2[2] <= data2[2]~reg0.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|top|seg7:u3
+data1[0] => Decoder0.IN2
+data1[1] => Decoder0.IN1
+data1[2] => Decoder0.IN0
+data2[0] => Decoder1.IN2
+data2[1] => Decoder1.IN1
+data2[2] => Decoder1.IN0
+seg[0] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[1] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[2] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[3] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[4] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[5] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[6] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+seg[7] <= Decoder0.DB_MAX_OUTPUT_PORT_TYPE
+ctrl[0] <= WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+ctrl[1] <= WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+ctrl[2] <= WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+ctrl[3] <= WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+ctrl[4] <= WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+ctrl[5] <= WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+
+

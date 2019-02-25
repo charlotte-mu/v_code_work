@@ -1,0 +1,7 @@
+
+State Machine - |top|control:u2|fsm
+Name fsm.011 fsm.010 fsm.000 fsm.001 
+fsm.001 0 0 0 0 
+fsm.000 0 0 1 1 
+fsm.010 0 1 0 1 
+fsm.011 1 0 0 1 
