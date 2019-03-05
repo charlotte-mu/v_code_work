@@ -1,0 +1,143 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dD:/v_code_work/work2/simulation/modelsim
+vbutten
+Z1 !s110 1551774601
+!i10b 1
+!s100 70LUSknPQLJUX:E`[JhbH0
+IFMP[:jZFPm9[EfVoI?0W>2
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+w1551679823
+8D:/v_code_work/work2/butten.v
+FD:/v_code_work/work2/butten.v
+L0 1
+Z3 OV;L;10.5b;63
+r1
+!s85 0
+31
+Z4 !s108 1551774601.000000
+!s107 D:/v_code_work/work2/butten.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/v_code_work/work2|D:/v_code_work/work2/butten.v|
+!i113 1
+Z5 o-vlog01compat -work work
+Z6 !s92 -vlog01compat -work work +incdir+D:/v_code_work/work2
+Z7 tCvgOpt 0
+vCLK
+R1
+!i10b 1
+!s100 NKMK`9YM>JVTSdgOFa;mV0
+IWVG7?lf7ST0M7QSMTf7C]1
+R2
+R0
+w1551099987
+8D:/v_code_work/work2/CLK.v
+FD:/v_code_work/work2/CLK.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/v_code_work/work2/CLK.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/v_code_work/work2|D:/v_code_work/work2/CLK.v|
+!i113 1
+R5
+R6
+R7
+n@c@l@k
+vmain
+R1
+!i10b 1
+!s100 `;7bGGWf8S4ooT:fo_Dn_3
+I]J?SUAnQY1d29L44>NXlj0
+R2
+R0
+w1551687791
+8D:/v_code_work/work2/main.v
+FD:/v_code_work/work2/main.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/v_code_work/work2/main.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/v_code_work/work2|D:/v_code_work/work2/main.v|
+!i113 1
+R5
+R6
+R7
+vseg7
+R1
+!i10b 1
+!s100 O@?M8jP4IRP3k;Hh`TdVU0
+I`<Y8FnP]G4T3_8W2BQ1262
+R2
+R0
+w1551681299
+8D:/v_code_work/work2/seg7.v
+FD:/v_code_work/work2/seg7.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/v_code_work/work2/seg7.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/v_code_work/work2|D:/v_code_work/work2/seg7.v|
+!i113 1
+R5
+R6
+R7
+vtestbench
+R1
+!i10b 1
+!s100 GL4QdC^Q]zZgCzmg9el1n1
+IHXRcalbDRA6gR`JH^oXPN1
+R2
+R0
+w1551754679
+8D:/v_code_work/work2/testbench.v
+FD:/v_code_work/work2/testbench.v
+L0 3
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/v_code_work/work2/testbench.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/v_code_work/work2|D:/v_code_work/work2/testbench.v|
+!i113 1
+R5
+R6
+R7
+vtop
+R1
+!i10b 1
+!s100 oA=[@Z5GFkBi0LFKSVnab1
+IQ=4nenXUo;=6@^kk[XAJe1
+R2
+R0
+w1551755722
+8D:/v_code_work/work2/top.v
+FD:/v_code_work/work2/top.v
+L0 1
+R3
+r1
+!s85 0
+31
+R4
+!s107 D:/v_code_work/work2/top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+D:/v_code_work/work2|D:/v_code_work/work2/top.v|
+!i113 1
+R5
+R6
+R7

@@ -1,0 +1,73 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "seg[0]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[1]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[2]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[3]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[4]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[5]",
+					"strict" : false
+				},
+				{
+					"name" : "seg[6]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl[0]",
+					"strict" : false
+				},
+				{
+					"name" : "ctrl[1]",
+					"strict" : false
+				},
+				{
+					"name" : "payok",
+					"strict" : false
+				},
+				{
+					"name" : "change",
+					"strict" : false
+				},
+				{
+					"name" : "ck",
+					"strict" : false
+				},
+				{
+					"name" : "reset",
+					"strict" : false
+				},
+				{
+					"name" : "co5",
+					"strict" : false
+				},
+				{
+					"name" : "co10",
+					"strict" : false
+				},
+				{
+					"name" : "pay",
+					"strict" : false
+				}
+			]
+		}
+	]
+}

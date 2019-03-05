@@ -1,0 +1,12 @@
+`timescale 1ns/10ps
+
+module testbench();
+
+top top(
+	.ck(ck),
+	.reset(reset),
+	.
+);
+
+
+endmodule

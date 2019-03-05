@@ -1,0 +1,11 @@
+module main(
+	input ck,reset,
+	input co5,co10,
+	output reg [3:0]seg,
+	output reg [1:0]ctrl
+);
+
+
+
+
+endmodule
